@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>List WebApp</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <body oncontextmenu="return false">
+    <span>Website Visits:</span>
+    <a href="https://www.hitwebcounter.com" target="_blank">
+      <img
+        src="https://hitwebcounter.com/counter/counter.php?page=8656530&style=0036&nbdigits=5&type=page&initCount=0"
+        title="Free Counter"
+        alt="web counter"
+        border="0"
+    /></a>
+    <div class="wrapper">
+      <div class="task-input">
+        <input type="text" placeholder="Add a new task" />
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
